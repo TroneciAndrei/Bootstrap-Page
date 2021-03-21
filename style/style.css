@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 100%;
+    font-family: 'Poppins',sans-serif;
+}
+.navbar-nav > li{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.active{
+    color: #000;
+}
+
+.bg{
+    background:url(../imgs/hero.jpg) center center no-repeat; 
+    background-size: cover;
+    width: 100vw;
+    height: 600px; 
+    display: block;
+    position: relative
+} 
+
+.text{
+    position: relative;
+    top: 50px;
+    left: 50px;
+    color: #fff;
+    background-color: green;
+    border: none;
+    max-width: 390px;
+    padding:.5rem;
+}
+.center{
+    margin-top: 10em;
+    text-align: center;
+}
+.center h1{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 40px;
+}
+.center p{
+    font-size: 15px;
+    font-weight: 400;
+    color: #555;
+}
+.img-fluid{
+    max-width: 100%;
+    height: auto;
+}
+
+.coloana{
+    margin-top: 10em;
+}
+.coloana h1{
+    font-size: 25px;
+    font-weight: 600;
+}
+.coloana h2{
+    font-size: 20px;
+    font-weight: 600;
+}
+.coloana p{
+    font-size: 15px;
+    font-weight: 400;
+    color: #555;
+}
+
+.coloana1{
+    margin-top: 10em;
+}
+.coloana1 h1{
+    font-size: 25px;
+    font-weight: 600;
+}
+.coloana1 h2{
+    font-size: 20px;
+    font-weight: 600;
+}
+.coloana1 p{
+    font-size: 15px;
+    font-weight: 400;
+    color: #555;
+}
+
+
+
