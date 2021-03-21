@@ -8,10 +8,10 @@ body{
     font-size: 100%;
     font-family: 'Poppins',sans-serif;
 }
-.navbar-nav > li{
+/* .navbar-nav > li{
     padding-left: 30px;
     padding-right: 30px;
-}
+} */
 .active{
     color: #000;
 }
@@ -20,6 +20,19 @@ body{
     border-bottom: 1px solid ;
     display: flex;
     max-width: 100%;
+}
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+    border: none;
+}
+@media (max-width: 990px) {
+    .navbar-toggler{
+      border: none;
+      outline: none;
+    }
 }
 
 .bg{
