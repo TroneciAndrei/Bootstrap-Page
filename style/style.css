@@ -15,6 +15,12 @@ body{
 .active{
     color: #000;
 }
+.title::after{
+    content: '';
+    border-bottom: 1px solid ;
+    display: flex;
+    max-width: 100%;
+}
 
 .bg{
     background:url(../imgs/hero.jpg) center center no-repeat; 
